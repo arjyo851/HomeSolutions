@@ -29,7 +29,7 @@ const Listing = () => {
 
     useEffect(() => {
         axios
-            .get(`${process.env.REACT_APP_API_URL}/api/listings/`)
+            .get("https://homesolutions.onrender.com/api/listings/")
             .then((res) => {
                 setListings(res.data.results);
                 window.scrollTo(0, 0);
@@ -41,7 +41,7 @@ const Listing = () => {
     return (
         <>
             <Helmet>
-                <title>Real Estate - Listing</title>
+                <title>HomeSolutions - Listing</title>
                 <meta name="description" content="sign up page" />
             </Helmet>
             <div className="heading-component">

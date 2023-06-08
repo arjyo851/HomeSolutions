@@ -9,7 +9,7 @@ const Home = () => {
     return (
         <>
             <Helmet>
-                <title>Real Estate - Home</title>
+                <title>HomeSolutions - Home</title>
                 <meta name="description" content="sign up page" />
             </Helmet>
             <section className="">

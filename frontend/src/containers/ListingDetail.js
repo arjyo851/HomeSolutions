@@ -36,7 +36,7 @@ const ListingDetail = ({ match, isAuthenticated, setAlert }) => {
 
         axios
             .get(
-                `${process.env.REACT_APP_API_URL}/api/listings/${slug}`,
+                `https://homesolutions.onrender.com/api/listings/${slug}`,
                 config
             )
             .then((res) => {
@@ -59,7 +59,7 @@ const ListingDetail = ({ match, isAuthenticated, setAlert }) => {
         if (id) {
             axios
                 .get(
-                    `${process.env.REACT_APP_API_URL}/api/realtors/${id}/`,
+                    `https://homesolutions.onrender.com/api/realtors/${id}/`,
                     config
                 )
                 .then((res) => {
@@ -86,7 +86,7 @@ const ListingDetail = ({ match, isAuthenticated, setAlert }) => {
         let seller_email = realtor.email;
         axios
             .post(
-                `${process.env.REACT_APP_API_URL}/api/contactSeller/`,
+                "https://homesolutions.onrender.com/api/contactSeller/",
                 { name, email, seller_email, subject, message },
                 config
             )
@@ -106,7 +106,7 @@ const ListingDetail = ({ match, isAuthenticated, setAlert }) => {
     return (
         <>
             <Helmet>
-                <title>Real Estate - {`${listing.title}`}</title>
+                <title>HomeSolutions - {`${listing.title}`}</title>
                 <meta name="description" content="Listing detail" />
             </Helmet>
             {isAuthenticated ? (

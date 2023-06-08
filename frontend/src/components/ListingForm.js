@@ -46,7 +46,7 @@ const ListingForm = (props) => {
         setLoading(true);
         axios
             .post(
-                `${process.env.REACT_APP_API_URL}/api/listings/search`,
+                "https://homesolutions.onrender.com/api/listings/search",
                 {
                     sale_type,
                     price,
@@ -80,7 +80,7 @@ const ListingForm = (props) => {
         };
         axios
             .post(
-                `${process.env.REACT_APP_API_URL}/api/listings/search`,
+                "https://homesolutions.onrender.com/api/listings/search",
                 {
                     sale_type,
                     price,

@@ -28,7 +28,7 @@ const Buy = ({ match, isAuthenticated, email }) => {
 
         axios
             .get(
-                `${process.env.REACT_APP_API_URL}/api/listings/${slug}`,
+                `https://homesolutions.onrender.com/api/listings/${slug}`,
                 config
             )
             .then((res) => {
@@ -62,7 +62,7 @@ const Buy = ({ match, isAuthenticated, email }) => {
             console.log(buyer, realtor, cart_slug, title, total_price);
             axios
                 .post(
-                    `${process.env.REACT_APP_API_URL}/api/orders/place_order/`,
+                    "https://homesolutions.onrender.com/api/orders/place_order/",
                     { buyer, realtor, cart_slug, title, total_price },
                     config
                 )
@@ -91,7 +91,7 @@ const Buy = ({ match, isAuthenticated, email }) => {
     return (
         <>
             <Helmet>
-                <title>Real Estate - {`${listing.title}`} - Buy</title>
+                <title>HomeSolutions - {`${listing.title}`} - Buy</title>
                 <meta name="description" content="Listing detail" />
             </Helmet>
             {isAuthenticated ? (

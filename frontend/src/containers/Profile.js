@@ -18,7 +18,7 @@ const Profile = ({ isAuthenticated, email }) => {
         if (isAuthenticated) {
             axios
                 .get(
-                    `${process.env.REACT_APP_API_URL}/api/accounts/${value}/`,
+                    `https://homesolutions.onrender.com/api/accounts/${value}/`,
                     config
                 )
                 .then((res) => {
@@ -40,7 +40,7 @@ const Profile = ({ isAuthenticated, email }) => {
         };
         if (isAuthenticated) {
             axios
-                .get(`${process.env.REACT_APP_API_URL}/api/orders/`, config)
+                .get("https://homesolutions.onrender.com/api/orders/", config)
                 .then((res) => {
                     const x = res.data.results.filter((val) => {
                         return val.buyer === value;
@@ -56,7 +56,7 @@ const Profile = ({ isAuthenticated, email }) => {
     return (
         <>
             <Helmet>
-                <title>Real Estate - Profile</title>
+                <title>HomeSolutions - Profile</title>
                 <meta name="description" content="sign up page" />
             </Helmet>
             {isAuthenticated ? (

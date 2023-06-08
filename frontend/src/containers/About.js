@@ -16,7 +16,7 @@ const About = () => {
 		const getTopSeller = async () => {
 			try {
 				const res = await axios.get(
-					`${process.env.REACT_APP_API_URL}/api/realtors/topseller/`,
+					"https://homesolutions.onrender.com/api/realtors/topseller/",
 					config
 				);
 				setTopSeller(res.data);
@@ -38,7 +38,7 @@ const About = () => {
 		const getRealtors = async () => {
 			try {
 				const res = await axios.get(
-					`${process.env.REACT_APP_API_URL}/api/realtors/`,
+					"https://homesolutions.onrender.com/api/realtors/",
 					config
 				);
 				setRealtors(res.data);
@@ -53,11 +53,11 @@ const About = () => {
 	return (
 		<main className='about'>
 			<Helmet>
-				<title>Real Estate - About</title>
+				<title>HomeSolutions - About</title>
 				<meta name='description' content='About us' />
 			</Helmet>
 			<header className='heading-component'>
-				<h1 className='font-weight-bold'>River Rock Real Estate</h1>
+				<h1 className='font-weight-bold'>River Rock HomeSolutions</h1>
 			</header>
 			<section className='container my-3'>
 				<div className='row'>

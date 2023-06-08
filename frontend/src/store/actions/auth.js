@@ -17,7 +17,7 @@ export const login = (email, password) => async (dispatch) => {
     const body = JSON.stringify({ email, password });
     try {
         const res = await axios.post(
-            `${process.env.REACT_APP_API_URL}/api/token/`,
+            "https://homesolutions.onrender.com/api/token/",
             body,
             config
         );
@@ -45,7 +45,7 @@ export const signup =
         const body = JSON.stringify({ name, email, password, password2 });
         try {
             const res = await axios.post(
-                `${process.env.REACT_APP_API_URL}/api/accounts/signup`,
+                "https://homesolutions.onrender.com/api/accounts/signup",
                 body,
                 config
             );

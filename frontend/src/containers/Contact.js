@@ -37,7 +37,7 @@ const Contact = ({ setAlert }) => {
         setLoading(true);
         axios
             .post(
-                `${process.env.REACT_APP_API_URL}/api/contacts/`,
+                "https://homesolutions.onrender.com/api/contacts/",
                 { name, email, subject, message },
                 config
             )
@@ -63,7 +63,7 @@ const Contact = ({ setAlert }) => {
     return (
         <div className="contact">
             <Helmet>
-                <title>Real Estate - Contact</title>
+                <title>HomeSolutions - Contact</title>
                 <meta name="description" content="Contact us" />
             </Helmet>
             <div className="heading-component">
