@@ -97,7 +97,7 @@ const Contact = ({ setAlert }) => {
                             </div>
                             <div className="col-10">
                                 <h4>Email:</h4>
-                                <p>rajan@rockriver.com</p>
+                                <p>arjyo77@gmail.com</p>
                             </div>
                         </div>
 
@@ -114,15 +114,16 @@ const Contact = ({ setAlert }) => {
                             </div>
                         </div>
                         <div>
-                            <iframe
-                                width="100%"
-                                height="250"
-                                frameborder="0"
-                                scrolling="no"
-                                marginheight="0"
-                                marginwidth="0"
-                                src="https://maps.google.com/maps?width=100%25&amp;height=250&amp;hl=en&amp;q=Pandit%20Deendayal%20Energy%20University+(Pandit%20Deendayal%20Energy%20University)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-                            ></iframe>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14007.689013988382!2d77.21911267832864!3d28.63209214622107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1686305014876!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="250" 
+                            // style="border:0;"
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+
+                            </iframe>
                         </div>
                     </div>
                     <div className="col-md-6">

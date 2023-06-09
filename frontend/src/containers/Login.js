@@ -81,7 +81,7 @@ const Login = ({ login, isAuthenticated }) => {
 				</form>
 				<div className='my-5'>
 					<h5 className='text-center pt-5'>
-						Copyright &copy; Arjyo Chakraborty, 2021 | All Right Reserved
+						Copyright &copy; Arjyo Chakraborty, 2023| All Right Reserved
 					</h5>
 				</div>
 			</div>

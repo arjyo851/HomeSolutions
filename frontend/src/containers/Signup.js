@@ -105,7 +105,7 @@ const Signup = ({ setAlert, isAuthenticated, signup }) => {
 			</form>
 			<div className='mt-5'>
 				<h5 className='text-center'>
-					Copyright &copy; Arjyo Chakraborty, 2021 | All Right Reserved
+					Copyright &copy; Arjyo Chakraborty, 2023| All Right Reserved
 				</h5>
 			</div>
 		</div>
