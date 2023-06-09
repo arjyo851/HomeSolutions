@@ -82,8 +82,9 @@ const Contact = ({ setAlert }) => {
                             <div className="col-10">
                                 <h4>Location:</h4>
                                 <p>
-                                    B2-710, High Rise Hostel, PDEU, Gandhinagar,
-                                    382007, Gujarat
+                                    63/2B, Kali Bari Marg, Sector-2, DIZ Area
+New Delhi, Delhi,
+                                    110001
                                 </p>
                             </div>
                         </div>
@@ -110,7 +111,7 @@ const Contact = ({ setAlert }) => {
                             </div>
                             <div className="col-10">
                                 <h4>Phone:</h4>
-                                <p>+91 9512245920</p>
+                                <p>+91 9310304682</p>
                             </div>
                         </div>
                         <div>
