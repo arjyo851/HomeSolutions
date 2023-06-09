@@ -36,7 +36,7 @@ const ListingDetail = ({ match, isAuthenticated, setAlert }) => {
 
         axios
             .get(
-                `https://homesolutions.onrender.com/api/listings/${slug}`,
+                `https://homesolutions2-0.onrender.com/api/listings/${slug}`,
                 config
             )
             .then((res) => {
@@ -59,7 +59,7 @@ const ListingDetail = ({ match, isAuthenticated, setAlert }) => {
         if (id) {
             axios
                 .get(
-                    `https://homesolutions.onrender.com/api/realtors/${id}/`,
+                    `https://homesolutions2-0.onrender.com/api/realtors/${id}/`,
                     config
                 )
                 .then((res) => {
@@ -86,7 +86,7 @@ const ListingDetail = ({ match, isAuthenticated, setAlert }) => {
         let seller_email = realtor.email;
         axios
             .post(
-                "https://homesolutions.onrender.com/api/contactSeller/",
+                "https://homesolutions2-0.onrender.com/api/contactSeller/",
                 { name, email, seller_email, subject, message },
                 config
             )

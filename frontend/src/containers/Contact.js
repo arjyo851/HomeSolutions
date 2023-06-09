@@ -37,7 +37,7 @@ const Contact = ({ setAlert }) => {
         setLoading(true);
         axios
             .post(
-                "https://homesolutions.onrender.com/api/contacts/",
+                "https://homesolutions2-0.onrender.com/api/contacts/",
                 { name, email, subject, message },
                 config
             )

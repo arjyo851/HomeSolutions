@@ -16,7 +16,7 @@ const About = () => {
 		const getTopSeller = async () => {
 			try {
 				const res = await axios.get(
-					"https://homesolutions.onrender.com/api/realtors/topseller/",
+					"https://homesolutions2-0.onrender.com/api/realtors/topseller/",
 					config
 				);
 				setTopSeller(res.data);
@@ -38,7 +38,7 @@ const About = () => {
 		const getRealtors = async () => {
 			try {
 				const res = await axios.get(
-					"https://homesolutions.onrender.com/api/realtors/",
+					"https://homesolutions2-0.onrender.com/api/realtors/",
 					config
 				);
 				setRealtors(res.data);

@@ -29,7 +29,7 @@ const Listing = () => {
 
     useEffect(() => {
         axios
-            .get("https://homesolutions.onrender.com/api/listings/")
+            .get("https://homesolutions2-0.onrender.com/api/listings/")
             .then((res) => {
                 setListings(res.data.results);
                 window.scrollTo(0, 0);

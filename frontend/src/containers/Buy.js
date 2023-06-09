@@ -28,7 +28,7 @@ const Buy = ({ match, isAuthenticated, email }) => {
 
         axios
             .get(
-                `https://homesolutions.onrender.com/api/listings/${slug}`,
+                `https://homesolutions2-0.onrender.com/api/listings/${slug}`,
                 config
             )
             .then((res) => {
@@ -62,7 +62,7 @@ const Buy = ({ match, isAuthenticated, email }) => {
             console.log(buyer, realtor, cart_slug, title, total_price);
             axios
                 .post(
-                    "https://homesolutions.onrender.com/api/orders/place_order/",
+                    "https://homesolutions2-0.onrender.com/api/orders/place_order/",
                     { buyer, realtor, cart_slug, title, total_price },
                     config
                 )

@@ -20,7 +20,7 @@ const Brought = ({ match, isAuthenticated, email }) => {
 
         axios
             .get(
-                `https://homesolutions.onrender.com/api/listings/${slug}`,
+                `https://homesolutions2-0.onrender.com/api/listings/${slug}`,
                 config
             )
             .then((res) => {
@@ -43,7 +43,7 @@ const Brought = ({ match, isAuthenticated, email }) => {
         if (id) {
             axios
                 .get(
-                    `https://homesolutions.onrender.com/api/realtors/${id}/`,
+                    `https://homesolutions2-0.onrender.com/api/realtors/${id}/`,
                     config
                 )
                 .then((res) => {
@@ -65,7 +65,7 @@ const Brought = ({ match, isAuthenticated, email }) => {
         };
         if (isAuthenticated) {
             axios
-                .get("https://homesolutions.onrender.com/api/orders/", config)
+                .get("https://homesolutions2-0.onrender.com/api/orders/", config)
                 .then((res) => {
                     const x = res.data.results.filter((val) => {
                         return val.buyer == value;

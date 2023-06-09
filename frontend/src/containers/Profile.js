@@ -18,7 +18,7 @@ const Profile = ({ isAuthenticated, email }) => {
         if (isAuthenticated) {
             axios
                 .get(
-                    `https://homesolutions.onrender.com/api/accounts/${value}/`,
+                    `https://homesolutions2-0.onrender.com/api/accounts/${value}/`,
                     config
                 )
                 .then((res) => {
@@ -40,7 +40,7 @@ const Profile = ({ isAuthenticated, email }) => {
         };
         if (isAuthenticated) {
             axios
-                .get("https://homesolutions.onrender.com/api/orders/", config)
+                .get("https://homesolutions2-0.onrender.com/api/orders/", config)
                 .then((res) => {
                     const x = res.data.results.filter((val) => {
                         return val.buyer === value;
