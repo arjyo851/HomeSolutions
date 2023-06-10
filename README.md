@@ -50,9 +50,9 @@ There is a seperate contact page from where you can contact to the company. You 
 
 You need an account to view the details page and make order. For that you just need to go to Signup page and create an account.
 
-![HomeSolutions-Login](https://github.com/arjyo851/HomeSolutions/assets/77008381/0c37c3e8-6580-4a6c-8269-76f54b840368)
+![HomeSolutions-Login](https://github.com/arjyo851/HomeSolutions/assets/77008381/6b8121f0-a8ca-4be2-9753-2527a59e8530)
 
-![HomeSolutions-signup](https://github.com/arjyo851/HomeSolutions/assets/77008381/f6516f16-4d6b-4944-b212-0cacfbc8a14c)
+![HomeSolutions-signup](https://github.com/arjyo851/HomeSolutions/assets/77008381/2419b5d2-82bc-49b8-bf8c-61f36184b6ed)
 
 ### 6. Details Page
 
