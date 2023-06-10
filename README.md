@@ -52,9 +52,38 @@ You need an account to view the details page and make order. For that you just n
 
 ![HomeSolutions-signup](https://github.com/arjyo851/HomeSolutions/assets/77008381/2748d524-3436-4c83-8f78-6fa1636ddb43)
 
-## 6. Details Page
+### 6. Details Page
 
 You can view the details page after logging in. You can see the complete details about the house/condo/townhouse in this page. You can also see the images and description of those and about the seller also. You can also contact the seller directly from the contact section. If you want to buy, then you just need to click on "BUY NOW" button.
+
+![HomeSolutions - Details](https://github.com/arjyo851/HomeSolutions/assets/77008381/956cc47e-2e11-4d7b-9b6d-581b3be06515)
+
+### 7. Buy Page
+
+You can use "DISCOUNT100" coupon to buy that item. If you could buy that item successfully, then you will get confirmation message there only.
+
+![HomeSolutions - buy](https://github.com/arjyo851/HomeSolutions/assets/77008381/a4b869c0-5b3d-49f2-b748-db84b9ec8ebd)
+
+### 8. Profile Page
+
+In profile page, you can see about your info as well as the orders you have made. You can see your buyings on clicking on the Item Name coloured in blue.
+
+![HomeSolutions - Profile](https://github.com/arjyo851/HomeSolutions/assets/77008381/50f358c9-6973-4378-aa90-724693d5208c)
+
+
+### 9. You can see full details about what you have brought.
+
+You can see full details about what you have brought.
+
+![HomeSolutions - brought](https://github.com/arjyo851/HomeSolutions/assets/77008381/bc069333-642c-47cd-9efa-99df1d8e20f6)
+
+### 10. Admin Page
+
+From the admin page, you can manage almost all things.
+
+![HomeSolutions-admin](https://github.com/arjyo851/HomeSolutions/assets/77008381/e1e7c8dd-90de-4637-9203-5973c2421643)
+
+
 
 
 
