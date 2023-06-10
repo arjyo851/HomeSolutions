@@ -89,8 +89,10 @@ From the admin page, you can manage almost all things.
 ## Technologies Used
 
 **Client:** React, Material-UI
+
 **Backend:** Python, Django
-**Database"** Sqlite
+
+**Database:** Sqlite
 
 ## Installation for backend
 
