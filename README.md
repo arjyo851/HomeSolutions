@@ -2,7 +2,7 @@
 # HomeSolutions
 
 
-![Logo]()
+![Logo](https://socialify.git.ci/arjyo851/HomeSolutions/image?font=Raleway&language=1&name=1&owner=1&pattern=Charlie%20Brown&theme=Dark)
 
 Welcome to the Real Estate Manager! This application allows you to conveniently manage your real estate needs. You can register, login, buy properties, search for properties, and explore information about sellers.
 
