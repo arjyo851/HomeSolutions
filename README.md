@@ -2,7 +2,7 @@
 # HomeSolutions
 
 
-![Logo](https://socialify.git.ci/gaganvats-05/ENGAGE-FaceRecognition-MOODIFY/image?description=1&descriptionEditable=Made%20for%20Microsoft%20Engage%202022&font=Source%20Code%20Pro&language=1&logo=https%3A%2F%2Fres.cloudinary.com%2Fdgg6izgtw%2Fimage%2Fupload%2Fv1653519834%2Fremoval.ai__tmp-628eb3258f035_pbkl0a.png&name=1&owner=1&pattern=Floating%20Cogs&theme=Dark)
+![Logo]()
 
 Welcome to the Real Estate Manager! This application allows you to conveniently manage your real estate needs. You can register, login, buy properties, search for properties, and explore information about sellers.
 
@@ -17,7 +17,7 @@ Welcome to the Real Estate Manager! This application allows you to conveniently 
 - Seller Information: Access details about the sellers, including their contact information and ratings.
 - User Profile: Manage your profile, update personal information, and view purchase history.
 
-# Demo / Screenshots
+## Demo / Screenshots
 
 
 ### 1. Home Page
@@ -84,6 +84,94 @@ From the admin page, you can manage almost all things.
 ![HomeSolutions-admin](https://github.com/arjyo851/HomeSolutions/assets/77008381/e1e7c8dd-90de-4637-9203-5973c2421643)
 
 
+## Technologies Used
+
+**Client:** React, Material-UI
+**Backend:** Python, Django
+
+## Installation for backend
+
+- Clone the project
+
+```bash
+https://github.com/arjyo851/HomeSolutions.git
+```
+
+- Navigate to the project directory:
+
+```bash
+cd HomeSolutions
+```
+
+- Create and activate a virtual environment
+
+```bash
+python3 -m venv venv
+```
+- Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+- Set up the database:
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+- For using administration features, create a superuser in django administration
+
+```bash
+python manage.py createsuperuser
+```
+
+after running this command set email, username  and password for admin
+
+- Start the application
+
+```bash
+python manage.py runserver
+```
+
+## Installation for frontend
+
+- Clone the project
+
+```bash
+https://github.com/arjyo851/HomeSolutions.git
+```
+
+- Navigate to the project directory:
+
+```bash
+cd HomeSolutions
+```
+
+- change all occurences of https://homesolutions2-0.onrender.com/ from frontend to http://127.0.0.1:8000 from VSCode
+
+- Install node dependencies and start server
+
+```bash
+npm install
+npm start
+```
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement" or "feature".
+Don't forget to give the project a star!
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 
+## License
 
+This application is released under MIT License for fair use (see [License](https://github.com/arjyo851/HomeSolutions/blob/main/LICENSE)).
