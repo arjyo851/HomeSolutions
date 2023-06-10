@@ -175,3 +175,7 @@ Don't forget to give the project a star!
 ## License
 
 This application is released under MIT License for fair use (see [License](https://github.com/arjyo851/HomeSolutions/blob/main/LICENSE)).
+
+## Contact
+
+For any questions or inquiries, please contact us at arjyo77@gmail.com.
