@@ -88,6 +88,7 @@ From the admin page, you can manage almost all things.
 
 **Client:** React, Material-UI
 **Backend:** Python, Django
+**Database"** Sqlite
 
 ## Installation for backend
 
@@ -176,6 +177,3 @@ Don't forget to give the project a star!
 
 This application is released under MIT License for fair use (see [License](https://github.com/arjyo851/HomeSolutions/blob/main/LICENSE)).
 
-## Contact
-
-For any questions or inquiries, please contact us at arjyo77@gmail.com.
