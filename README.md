@@ -44,7 +44,7 @@ In about page, you can see about the company, top sellers and listed sellers.
 
 There is a seperate contact page from where you can contact to the company. You will also get response email after sending messages.
 
-![HomeSolutions-contact](https://github.com/arjyo851/HomeSolutions/assets/77008381/6e36cdba-bc25-4c81-b63f-f939b16f87c6)
+<img width="960" alt="HomeSolution-Contact" src="https://github.com/arjyo851/HomeSolutions/assets/77008381/11d18236-441b-4876-a9f5-b77bc99d44a9">
 
 ### 5. Login and Signup Page
 
